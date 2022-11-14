@@ -1,5 +1,9 @@
 ﻿{% extends "page" %}
 
+{% block cache %}
+<!-- No cache -->
+{% endblock %}
+
 {% block title-tag-content %}{% firstof pageContext.metaTitle labels.yourAccount %} - {% parent %}{% endblock title-tag-content %}
 
 {% block body-tag-classes %} mz-myaccount {% endblock body-tag-classes %}

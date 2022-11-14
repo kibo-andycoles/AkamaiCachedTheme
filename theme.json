@@ -884,6 +884,8 @@
     }
   ],
   "settings": {
+    "akamaiEdgeControlEnabled": false,
+    "akamaiEdgeControlMaxAge": 20,
     "enableRecaptcha": false,
     "recaptchaSiteKey": null,
     "__recaptchaSecrete": null,

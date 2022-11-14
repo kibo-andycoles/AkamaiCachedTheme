@@ -1,5 +1,9 @@
 ﻿{% extends "page" %}
 
+{% block cache %}
+<!-- No cache -->
+{% endblock %}
+
 {% block title-tag-content %}{% firstof pageContext.metaTitle labels.cart %} - {% parent %}{% endblock title-tag-content %}
 
 {% block head-tag-scripts %}

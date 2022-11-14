@@ -19,6 +19,27 @@
         },
         {
             "xtype": "panel",
+            "title": "Akamai Caching",
+            "collapsed": false,
+            "items": [
+                {
+                    "fieldLabel": "Akamai Edge-Control Caching Enabled",
+                    "xtype": "mz-input-checkbox",
+                    "name": "akamaiEdgeControlEnabled"
+                },
+                {
+                    "fieldLabel": "Edge-Control cache-maxage (minutes)",
+                    "xtype": "mz-input-number",
+                    "name": "akamaiEdgeControlMaxAge",
+                    "hideTrigger": false,
+                    "allowDecimal": false,
+                    "minValue": 1,
+                    "maxValue": 60
+                }
+            ]
+        },
+        {
+            "xtype": "panel",
             "title": "Recaptcha",
             "collapsed": false,
             "items": [
